@@ -163,3 +163,6 @@ Thumbs.db
 
 
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python
+
+# According to YELP data agreement I am not allowed to display their dataset publicitly
+JSON/*
