@@ -166,3 +166,7 @@ Thumbs.db
 
 # According to YELP data agreement I am not allowed to display their dataset publicitly
 JSON/*
+
+# Results may contain a lot of information from YELP dataset, which I am not
+# allowed to display publicitly
+out/*
