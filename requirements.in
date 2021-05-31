@@ -1,5 +1,6 @@
 jupyter
 numpy
 matplotlib
+nbconvert[webpdf]
 pandas
 wordcloud
