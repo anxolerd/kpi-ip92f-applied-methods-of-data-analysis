@@ -81,7 +81,9 @@ markupsafe==2.0.1
 matplotlib-inline==0.1.2
     # via ipython
 matplotlib==3.4.2
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   wordcloud
 mistune==0.8.4
     # via nbconvert
 nbclient==0.5.3
@@ -107,6 +109,7 @@ numpy==1.20.3
     #   -r requirements.in
     #   matplotlib
     #   pandas
+    #   wordcloud
 packaging==20.9
     # via bleach
 pandas==1.2.4
@@ -120,7 +123,9 @@ pexpect==4.8.0
 pickleshare==0.7.5
     # via ipython
 pillow==8.2.0
-    # via matplotlib
+    # via
+    #   matplotlib
+    #   wordcloud
 prometheus-client==0.10.1
     # via notebook
 prompt-toolkit==3.0.18
@@ -200,6 +205,8 @@ webencodings==0.5.1
     # via bleach
 widgetsnbextension==3.5.1
     # via ipywidgets
+wordcloud==1.8.1
+    # via -r requirements.in
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
